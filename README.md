@@ -13,7 +13,7 @@
 - go_fsq is licensed under the GNU LGPLv3 license.
 
 ## How to use
-- Run `go get -u github.com/brybott/go_fsq`
+- Run `go get -u github.com/brybott/go_fsq@v1.0.0`
 - Import the package `import github.com/brybott/go_fsq`
 - Initialize the queue
 ```go
