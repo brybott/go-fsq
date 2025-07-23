@@ -14,7 +14,7 @@ It is not tested in production. No guarantees are implied.**
 - go-fsq is licensed under the GNU LGPLv3 license.
 
 ## How to use
-- Run `go get -u github.com/brybott/go-fsq@v1.0.0`
+- Run `go get -u github.com/brybott/go-fsq@v1.0.1`
 - Import the package `import github.com/brybott/go-fsq`
 - Initialize the queue
 ```go
