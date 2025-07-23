@@ -10,7 +10,7 @@
 
 - IMPORTANT: Adding to the queue is a fire and forget operation. There is no feedback regarding if a task has been completed successfully or not.
 
-- go_fsc is licensed under the GNU LGPLv3 license.
+- go_fsq is licensed under the GNU LGPLv3 license.
 
 ## How to use
 - Run `go get -u github.com/brybott/go_fsq`
@@ -20,7 +20,7 @@
 maxSize := 100
 maxProcesses := 10
 name := "my_favorite_queue"
-queue := fsc.Init(maxSize, name, maxProcesses)
+queue := fsq.Init(maxSize, name, maxProcesses)
 ```
 - Add a task to the queue
 ```go
