@@ -16,14 +16,14 @@
 - Run `go get -u github.com/brybott/go_fsq`
 - Import the package `import github.com/brybott/go_fsq`
 - Initialize the queue
-```
+```go
 maxSize := 100
 maxProcesses := 10
 name := "my_favorite_queue"
 queue := fsc.Init(maxSize, name, maxProcesses)
 ```
 - Add a task to the queue
-```
+```go
 // the function passed as the first parameter to .Add() must have the signature below
 // (it must take a single map parameter with string keys and any type of values,  
 // and it must return an error/nil).
