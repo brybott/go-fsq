@@ -27,7 +27,6 @@ queue := fsc.Init(maxSize, name, maxProcesses)
 // the function passed as the first parameter to .Add() must have the signature below
 // (it must take a single map parameter with string keys and any type of values,  
 // and it must return an error/nil).
-
 doStuff := func(params map[string]interface{}) error {
   return nil
 }
