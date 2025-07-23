@@ -40,7 +40,7 @@ params := map[string]interface{}{
 }
 
 // IDs should not be reused. A task will not be added to the queue if it shares  
-the same ID as a task waiting in the queue.
+// the same ID as a task waiting in the queue.
 taskId := "stuff-12345"
 
 // Tasks added to the queue are run concurrently, they do not block.  
