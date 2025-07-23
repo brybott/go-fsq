@@ -1,5 +1,6 @@
-# go_fsq: A fixed sized queue that runs "tasks"
-**Disclaimer: go_fsq is not actively maintained. It is a project for learning. It is not tested in production. No guarantees are implied.**
+# go-fsq: A fixed sized queue that runs "tasks"
+**Disclaimer: go-fsq is not actively maintained. It is a project for learning.  
+It is not tested in production. No guarantees are implied.**
 - fsq or "fixed size queue" is a queue of tasks. Tasks are functions that are to be run concurrently. The max number of items allowed in the queue, and max number of concurrent tasks are determined at the time which the fsq is created.
 
 - Internally, fsq uses a ring buffer for O(1) adding and removing to the queue.
@@ -10,11 +11,11 @@
 
 - IMPORTANT: Adding to the queue is a fire and forget operation. There is no feedback regarding if a task has been completed successfully or not.
 
-- go_fsq is licensed under the GNU LGPLv3 license.
+- go-fsq is licensed under the GNU LGPLv3 license.
 
 ## How to use
-- Run `go get -u github.com/brybott/go_fsq@v1.0.0`
-- Import the package `import github.com/brybott/go_fsq`
+- Run `go get -u github.com/brybott/go-fsq@v1.0.0`
+- Import the package `import github.com/brybott/go-fsq`
 - Initialize the queue
 ```go
 maxSize := 100
